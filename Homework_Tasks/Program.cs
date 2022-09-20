@@ -32,7 +32,7 @@ bool CheckExit(int num)
 }
 
 //-------------------------------
-void GetSymbol(string str, int number_symbol)
+void GetSymbol_1(string str, int number_symbol)
 //-------------------------------
 {
     Console.WriteLine($"Введено число {str}. '{str[number_symbol-1]}' -> {number_symbol}-я цифра этого числа");
@@ -50,7 +50,7 @@ while (true)
         continue;
     if (CheckExit(number))
         break;
-    GetSymbol(str_number, 2);    // получить и вывести 2-й символ переданной строки  
+    GetSymbol_1(str_number, 2);    // получить и вывести 2-й символ переданной строки  
 }
 // *** Конец Задачи 10 ***
 
@@ -79,7 +79,7 @@ int CheckNumber_plus(string str)
 }
 
 //-------------------------------
-void GetSymbol(string str, int number_symbol)
+void GetSymbol_2(string str, int number_symbol)
 //-------------------------------
 {
     if (str.Length < 3)
@@ -88,7 +88,7 @@ void GetSymbol(string str, int number_symbol)
         Console.WriteLine($"Введено число {str}. '{str[number_symbol-1]}' -> {number_symbol}-я цифра этого числа");
 }
 
-// Осночное тело программы
+// Основное тело программы
 // =======================
 Console.WriteLine("Введите любое целое число. Я покажу 3-ю цифру, для завершения введите '0':");
 Console.WriteLine("---");
@@ -101,7 +101,7 @@ while (true)
     else if (number < 0)
         continue;
     else
-        GetSymbol(str_number, 3);    // получить и вывести 3-й символ переданной строки  
+        GetSymbol_2(str_number, 3);    // получить и вывести 3-й символ переданной строки  
 }        
 // *** Конец Задачи 13 ***
 
@@ -142,7 +142,7 @@ string GetWeekend(int dayW)
     return result;
 }
 
-// Осночное тело программы
+// Основное тело программы
 // =======================
 Console.WriteLine("Введите день недели. Для завершения введите '0':");
 Console.WriteLine("---");

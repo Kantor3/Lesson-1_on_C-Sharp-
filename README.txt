@@ -31,7 +31,6 @@ Seminar_Task-1
 Seminar_Tasks
 ---
 
-
 Домашнее задание. Задачи:
 Homework_Task-1
 или
@@ -42,3 +41,7 @@ Homework_Tasks
 6 Text of commits of the Tasks:
 sulution of task-1 of the seminar
  
+
+7 Описание вариантов решения проблемы "Возможно, аргумент-ссылка, допускающий значение NULL" здесь:
+https://learn.microsoft.com/ru-ru/dotnet/csharp/nullable-references
+
